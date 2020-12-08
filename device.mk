@@ -56,5 +56,4 @@ PRODUCT_PACKAGES += \
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+PRODUCT_PROPERTY_OVERRIDES += ro.apex.updatable=true
