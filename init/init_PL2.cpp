@@ -57,5 +57,5 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override("ro.build.description", "Plate2_00WW-user 10 QKQ1.190828.002 00WW_4_15C release-keys");
-    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RD1A.201105.003.B1/6886588:user/release-keys");
+    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ1A.201205.011/6966805:user/release-keys");
 }
