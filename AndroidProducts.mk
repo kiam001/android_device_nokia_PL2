@@ -16,7 +16,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_PL2.mk \
-    $(LOCAL_DIR)/aosp_PL2.mk
+    $(LOCAL_DIR)/aosp_PL2.mk \
     $(LOCAL_DIR)/carbon_PL2.mk
 
 COMMON_LUNCH_CHOICES := \
